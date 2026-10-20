@@ -1677,5 +1677,26 @@ button { font: inherit; }
   }
 }
 
+/* Header doodles: lift artwork clear of the label ovals */
+@media (min-width: 761px) {
+  .site-header .header-doodle-nav .doodle-art {
+    top: -27px !important;
+  }
+
+  .site-header .header-doodle-nav .label-loop {
+    top: 50% !important;
+  }
+}
+
+@media (max-width: 760px) {
+  .site-header .header-doodle-nav .doodle-art {
+    top: -20px !important;
+  }
+
+  .site-header .header-doodle-nav .label-loop {
+    top: 50% !important;
+  }
+}
+
 
 
