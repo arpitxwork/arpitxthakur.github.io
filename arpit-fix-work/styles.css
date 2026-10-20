@@ -1702,3 +1702,17 @@ button { font: inherit; }
   .site-header .header-doodle-nav .doodle-art { top: 0px !important; }
   .site-header .header-doodle-nav .text-only-doodle .doodle-art { top: 0px !important; }
 }
+
+/* Header doodle spacing fix — keep artwork clearly above each oval */
+@media (min-width: 761px) {
+  .site-header .header-doodle-nav .doodle-art {
+    top: -45px !important;
+  }
+}
+
+/* Mobile and tablet: preserve a visible gap above each oval */
+@media (max-width: 760px) {
+  .site-header .header-doodle-nav .doodle-art {
+    top: -30px !important;
+  }
+}
